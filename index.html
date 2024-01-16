@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/53b5882ae7.js" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="assets/style.css">
@@ -26,6 +27,8 @@
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
+                <i class="fa-solid fa-bars"></i>
+                
             </ul>
             
         </nav>
@@ -34,41 +37,44 @@
 
     <main>
         <section class="bg-section">
-            <div class="bg-image"></div>
-
-            <div class="overlay">
-                <h1 class="bg-title">Explore Your Travel</h1>
-                <p class="bg-text">Dive into the extraordinary with Hero Travel where each destination is a chapter
-                    waiting to be written. Uncover hidden gems, forge new connections, and let the spirit of adventure
-                    be your guide across the map.</p>
+            <div class="bg-image">
+                <div class="overlay">
+                    <h1 class="bg-title">Explore Your Travel</h1>
+                    <p class="bg-text">Dive into the extraordinary with Hero Travel where each destination is a chapter
+                        waiting to be written. Uncover hidden gems, forge new connections, and let the spirit of adventure
+                        be your guide across the map.</p>
+                </div>
+                <div class="options-box">
+                    <div class="option">
+                        <label for="whereGo"></label>
+                        <input type="text" id="whereGo" placeholder="Where go">
+                    </div>
+        
+                    <div class="option">
+                        <label for="when"> </label>
+                        <select id="when" class="custom-dropdown">
+                            <option value="" disabled selected hidden>When</option>
+                        </select>
+                    </div>
+        
+                    <div class="option">
+                        <label for="select1"></label>
+                        <select id="select1" class="custom-dropdown">
+                            <option value="" disabled selected hidden>Select Type</option>
+                        </select>
+                    </div>
+        
+                    <button class="find-now-btn">
+                        <i class="fas fa-search"></i> Find Now
+                    </button>
+        
+                </div>
             </div>
+
+           
         </section>
 
-        <div class="options-box">
-            <div class="option">
-                <label for="whereGo"></label>
-                <input type="text" id="whereGo" placeholder="Where go">
-            </div>
-
-            <div class="option">
-                <label for="when"> </label>
-                <select id="when" class="custom-dropdown">
-                    <option value="" disabled selected hidden>When</option>
-                </select>
-            </div>
-
-            <div class="option">
-                <label for="select1"></label>
-                <select id="select1" class="custom-dropdown">
-                    <option value="" disabled selected hidden>Select Type</option>
-                </select>
-            </div>
-
-            <button class="find-now-btn">
-                <i class="fas fa-search"></i> Find Now
-            </button>
-
-        </div>
+       
 
 
         <section class="popular">
@@ -110,7 +116,7 @@
                 <div class="row-1">
                     <div class="des-img">
                         <img src="assets/images/Rectangle 5.png" alt="Maldives">
-                        <h3 class="loc-name"></h3>
+                        <h3 class="loc-name">maldives</h3>
                     </div>
                     <div class="des-img">
                         <img src="assets/images/Rectangle 8.png" alt="Indonesia">
