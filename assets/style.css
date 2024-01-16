@@ -325,6 +325,117 @@ ul li a {
 }
 
 
+/* Perfect */
+
+/* .perfect {
+    display: flex;
+    gap: 10%;
+}
+
+
+.perfect-des {
+        margin: 0 0 24px 0;
+    }
+
+.perfect ul {
+        padding: 0px 0 0 25px;
+}
+
+.perfect li {
+    padding: 0px 0 16px 0;
+}
+
+.perfect-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    background-color: var(--button-color);
+    color: #FFF;
+    padding: 14px 35px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 32px;
+} */
+
+
+
+.perfect {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.perfect-head {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.perfect-des {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+   
+}
+
+
+.perfect li {
+    margin-top: 24px;
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    padding: 0px 0 0 25px;
+    margin-left: 30px;
+    
+}
+
+.perfect-btn {
+    background: #FF5400;
+    color: #FFF;
+    padding: 14px 35px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 2px;
+}
+
+.custom-video {
+    width: 610px;
+    height: px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    margin-left: 42px;
+}
+.video-container {
+    position: relative;
+}
+.video-text {
+    width: 276px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    z-index: 1; 
+}
+
+
+
+
 /* Newsletter */
 
 .newsletter {
@@ -332,6 +443,7 @@ ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-left: 175px ;
+    margin-top: 113px;
 }
 
 .news-left {
